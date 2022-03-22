@@ -78,4 +78,28 @@ Fibonacci Sequence
 		else {
 			return fib(term-1) + fib(term-2); 
 		}'
+		
+		
+
+Trees:
+- the top of the tree is called a root
+- Each node is connected by an each, 
+
+
+
+Binary tree
+- where the nodes have degree at most 2
+- The children of anode if present are called left child and right hild
+- Binary trees have a lot of applications
+
+
+Binary tree node
+- Needs a referendace to a data in the node, and to the left and right children
+
+In java it's implemented with 3 pointers, one of parent, left child and right child
+- constructor: the pointers are instantiated to null
+
+
+A tree is not binary each node will have reference to the data itemit stores, a reference to its parent
+- you use a list to make references to childrne, each of 
 
